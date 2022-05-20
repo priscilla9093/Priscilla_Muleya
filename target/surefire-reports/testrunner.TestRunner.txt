@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.547 s <<< FAILURE! - in testrunner.TestRunner
+Job Application to ILab(ILab Assessment)  Time elapsed: 0.036 s  <<< ERROR!
+cucumber.runtime.CucumberException: 
+Step [^I should be able to enter "([^"]*)" "([^"]*)" "([^"]*)"$] is defined with 6 parameters at 'stepDefinitions.Happyflow.i_should_be_able_to_enter_something_something_something(String,String,String,String,String,String) in file:/C:/Users/pmuleya/AppData/Local/Temp/surefire3083843644425932807/..%5C..%5C..%5C..%5CDesktop%5Cuntitled%5Ctarget%5Ctest-classes/'.
+However, the gherkin step has 3 arguments:
+ * Priscilla
+ * automationAssessment@iLabQuality.com
+ * I am respoding to the advitised position
+Step text: I should be able to enter "Priscilla" "automationAssessment@iLabQuality.com" "I am respoding to the advitised position"
+
